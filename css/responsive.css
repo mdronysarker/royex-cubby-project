@@ -1,0 +1,1774 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .navbar-scroll {
+    top: 0;
+  }
+  .navbar-brand img {
+    margin-top: -4px;
+    margin-left: -11px;
+    height: 30px;
+  }
+  .navbar-nav li a {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .nav-button button {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 9px;
+    margin-top: 20px;
+  }
+  .navbar-nav li {
+    padding: 0;
+  }
+  .navbar-nav li a:hover::after {
+    opacity: 0;
+  }
+  .offcanvas-img {
+    width: 28%;
+  }
+  /* bannar */
+  .hero-section {
+    padding: 90px 20px 0;
+    background-size: 37px, 100% auto;
+  }
+  .left-content-box h1 {
+    font-size: 25px;
+    line-height: 46px;
+    margin-bottom: 20px;
+  }
+
+  .left-content-box h4 {
+    font-family: var(--primary-font);
+    color: var(--secondary-heading);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 40.25px;
+    margin-bottom: 0px;
+  }
+  .drivers p {
+    font-size: 17px;
+  }
+  .drivers h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .dowload-btn--divice {
+    width: 90%;
+  }
+  /* about */
+  #about {
+    margin-top: 50px;
+  }
+  #about .section-heading h2 {
+    font-size: 39px;
+    line-height: 60px;
+  }
+  #about .section-heading p {
+    font-size: 16px;
+    width: 100%;
+    padding-bottom: 25px;
+  }
+  .about-content p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .about-content h4 {
+    text-align: center;
+  }
+
+  /* features */
+  #features {
+    margin-top: 65px;
+  }
+  .feature-heading {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .feature-heading-paragraph {
+    width: 100%;
+    line-height: 28px;
+  }
+  .features-content p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .features-content h4 {
+    width: 190px;
+    font-size: 25px;
+    margin: 0 auto;
+  }
+  /* work */
+  #work {
+    margin-top: 100px;
+  }
+  .work-heading {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .work-heading-paragraph {
+    width: 100%;
+    line-height: 28px;
+  }
+  .work-content {
+    margin: 10px 0;
+    padding-left: 28px;
+  }
+  .work-content h5 {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  .work-content h6 {
+    margin-top: 18px;
+  }
+  .work-content p {
+    width: 100%;
+  }
+  /* customer */
+  #customer {
+    margin-top: 65px;
+  }
+  .customer-heading {
+    font-size: 33px;
+    line-height: 50px;
+  }
+  .customer-heading-paragraph {
+    width: 100%;
+    line-height: 28px;
+  }
+  .coustomer-pra p {
+    width: 100%;
+  }
+  .carousel {
+    top: 10px;
+  }
+  /* download */
+  #download {
+    padding: 0;
+    margin-top: 80px;
+  }
+  .dowload-btn img {
+    width: 100%;
+  }
+  .download-title h4 {
+    font-size: 22px;
+    line-height: 21.25px;
+    margin-top: 10px;
+  }
+  /* contact */
+  #contact {
+    margin-top: 80px;
+  }
+  .contact-heading {
+    margin-top: 30px;
+    font-size: 29px;
+    line-height: 41px;
+  }
+  .contact-heading-paragraph {
+    width: 100%;
+    line-height: 28px;
+  }
+  .message-wrapper {
+    padding: 12px;
+  }
+  .from-left {
+    height: 45px;
+  }
+  .from-right {
+    height: 135px;
+  }
+  /* footer */
+  #footer {
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    margin-top: 87px;
+  }
+  .footer-content p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .arrow-btn i {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  /* signup page starts */
+
+  .signup-bg .nav_right_img img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 43px;
+  }
+  #signup-banner {
+    margin-top: 45px;
+    padding-bottom: 0;
+  }
+  #signup-banner .wrap {
+    margin-top: 0;
+  }
+  #signup-banner .bannar-heading h1 {
+    font-size: 37px;
+    line-height: 50px;
+    width: 100%;
+  }
+  #signup-banner .banner-pragrap p {
+    width: 100%;
+  }
+  /* documents */
+  #document {
+    padding-top: 50px;
+  }
+  .document-heading h2 {
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .document-heading p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 45px;
+    width: 100%;
+  }
+  .vehicale-wrapper {
+    padding: 10px;
+  }
+  .vehicale-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .vehicale-content h6 {
+    font-size: 17px;
+    line-height: 44px;
+  }
+  .vehicale-content p {
+    font-size: 14px;
+    width: 100%;
+  }
+  #download.signup-download {
+    margin-top: -45px;
+  }
+  #download.signup-download .banner-title h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 22px;
+    line-height: 20px;
+  }
+  /* signup starts */
+  .signup-heading h2 {
+    font-size: 42px;
+    margin-top: -62px;
+  }
+  .signup-heading p {
+    width: 100%;
+  }
+  #regForm {
+    margin: 90px 0 120px auto;
+    padding: 10px 10px;
+    width: 100%;
+  }
+  .step {
+    height: 45px;
+    width: 45px;
+  }
+  .circle {
+    font-size: 22px;
+  }
+  .step::after {
+    top: 26px;
+    left: -24px;
+    width: 92px;
+  }
+  .step.active::after {
+    top: 26px;
+    left: -24px;
+    width: 93px;
+  }
+  .vehicale-heading {
+    font-size: 14px;
+  }
+  .document-heading {
+    font-size: 14px;
+  }
+  .form-label {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .form-control {
+    padding-left: 30px;
+  }
+  .cloud-svg {
+    top: 37px;
+    left: -83px;
+    width: 20px;
+  }
+  .lincense-svg {
+    top: 38px;
+    left: -55px;
+    width: 20px;
+  }
+  .rta-svg {
+    top: 39px;
+    left: -69px;
+    width: 20px;
+  }
+  .vehicale-svg {
+    top: 37px;
+    left: -150px;
+    width: 20px;
+  }
+  .insurance-svg {
+    top: 38px;
+    left: -134px;
+    width: 20px;
+  }
+  /* signup ends*/
+  /* Term and condition */
+  #policy-nav .nav-policy-position {
+    position: absolute;
+    top: 0px;
+    z-index: 99;
+    left: 3px;
+  }
+  #policy-banner {
+    margin-top: 70px;
+  }
+  .banner-text {
+    margin-right: 0;
+  }
+  .banner-text h2 {
+    font-size: 35px;
+    padding-bottom: 40px;
+    line-height: 50px;
+  }
+  .banner-text p {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 28px;
+  }
+  .privacy-content h2 {
+    font-size: 31px;
+    line-height: 43px;
+    margin-top: 50px;
+  }
+  .scop-content h2 {
+    font-size: 21px;
+    line-height: 36px;
+  }
+  #privacy {
+    padding-top: 24px;
+  }
+
+  #scop {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-scroll {
+    top: 0;
+  }
+  .navbar-brand img {
+    margin-top: -4px;
+    margin-left: -11px;
+    height: 30px;
+  }
+  .navbar-nav li a {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .nav-button button {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 9px;
+    margin-top: 20px;
+  }
+  .navbar-nav li {
+    padding: 0;
+  }
+  .navbar-nav li a:hover::after {
+    opacity: 0;
+  }
+  .offcanvas-img {
+    width: 28%;
+  }
+  /* bannar */
+  .hero-section {
+    padding: 90px 20px 0;
+    background-size: 45px, 100% auto;
+  }
+  .left-content-box h1 {
+    font-size: 35px;
+    line-height: 53px;
+    margin-bottom: 20px;
+  }
+  .left-content-box h4 {
+    font-family: var(--primary-font);
+    color: var(--secondary-heading);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 40.25px;
+    margin-bottom: 0px;
+  }
+  .drivers p {
+    font-size: 17px;
+  }
+  .drivers h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .dowload-btn--divice {
+    width: 90%;
+  }
+  /* about */
+  #about {
+    margin-top: 75px;
+  }
+  #about .section-heading h2 {
+    font-size: 39px;
+    line-height: 60px;
+  }
+  #about .section-heading p {
+    font-size: 16px;
+    width: 100%;
+    padding-bottom: 25px;
+  }
+  .about-content p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .about-content h4 {
+    text-align: center;
+  }
+  /* features */
+  #features {
+    margin-top: 65px;
+  }
+  .feature-heading {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .feature-heading-paragraph {
+    width: 100%;
+    line-height: 28px;
+  }
+  .features-content p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .features-content h4 {
+    width: 190px;
+    font-size: 25px;
+    margin: 0 auto;
+  }
+  /* work */
+  #work {
+    margin-top: 85px;
+  }
+  .work-heading {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .work-heading-paragraph {
+    width: 100%;
+    line-height: 28px;
+  }
+  .work-content {
+    margin: 10px 0;
+    padding-left: 28px;
+  }
+  .work-content h5 {
+    font-size: 26px;
+    width: 42px;
+    height: 42px;
+    margin: 0 auto;
+  }
+  .work-content h6 {
+    margin-top: 18px;
+  }
+  .work-content p {
+    width: 100%;
+  }
+  /* customer */
+  #customer {
+    margin-top: 70px;
+  }
+  .customer-heading {
+    font-size: 33px;
+    line-height: 50px;
+  }
+  .customer-heading-paragraph {
+    width: 100%;
+    line-height: 28px;
+  }
+  .coustomer-pra p {
+    width: 97%;
+  }
+  .carousel {
+    top: 10px;
+  }
+  /* download */
+  #download {
+    padding: 40px 0;
+    margin-top: 80px;
+  }
+  .dowload-btn img {
+    width: 100%;
+  }
+  .download-title h4 {
+    font-size: 22px;
+    line-height: 21.25px;
+    margin-top: -30px;
+  }
+  /* contact */
+  #contact {
+    margin-top: 80px;
+  }
+  .contact-heading {
+    margin-top: 30px;
+    font-size: 29px;
+    line-height: 41px;
+  }
+  .contact-heading-paragraph {
+    width: 100%;
+    line-height: 28px;
+  }
+  .message-wrapper {
+    padding: 12px;
+  }
+  .from-left {
+    height: 45px;
+  }
+  .from-right {
+    height: 135px;
+  }
+  /* footer */
+  #footer {
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+  }
+  .footer-content p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .arrow-btn i {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  /* signup page starts */
+  .signup-bg .nav_right_img img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 48px;
+  }
+  #signup-banner {
+    margin-top: 45px;
+    padding-bottom: 0;
+  }
+  #signup-banner .wrap {
+    margin-top: 0;
+  }
+  #signup-banner .bannar-heading h1 {
+    font-size: 48px;
+    line-height: 68px;
+    width: 100%;
+  }
+  #signup-banner .banner-pragrap p {
+    width: 100%;
+  }
+  /* documents */
+  #document {
+    padding-top: 50px;
+  }
+  .document-heading h2 {
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .document-heading p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 45px;
+    width: 100%;
+  }
+  .vehicale-wrapper {
+    padding: 10px;
+  }
+  .vehicale-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .vehicale-content h6 {
+    font-size: 17px;
+    line-height: 44px;
+  }
+  .vehicale-content p {
+    font-size: 14px;
+    width: 100%;
+  }
+  #download.signup-download {
+    margin-top: -50px;
+  }
+  #download.signup-download .banner-title h4 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: -14px;
+    line-height: 20px;
+  }
+  /* signup starts */
+  .signup-heading h2 {
+    font-size: 42px;
+    margin-top: -62px;
+  }
+  .signup-heading p {
+    width: 100%;
+  }
+  #regForm {
+    margin: 90px 0 180px auto;
+    padding: 30px 10px;
+    width: 100%;
+  }
+  .step {
+    height: 45px;
+    width: 45px;
+  }
+  .circle {
+    font-size: 22px;
+  }
+  .step::after {
+    top: 26px;
+    left: -57px;
+    width: 160px;
+  }
+  .step.active::after {
+    top: 26px;
+    left: -57px;
+    width: 160px;
+  }
+  .vehicale-heading {
+    font-size: 14px;
+  }
+  .document-heading {
+    font-size: 14px;
+  }
+  .form-label {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .form-control {
+    padding-left: 30px;
+  }
+  .cloud-svg {
+    top: 37px;
+    left: -83px;
+    width: 20px;
+  }
+  .lincense-svg {
+    top: 38px;
+    left: -55px;
+    width: 20px;
+  }
+  .rta-svg {
+    top: 39px;
+    left: -69px;
+    width: 20px;
+  }
+  .vehicale-svg {
+    top: 37px;
+    left: -150px;
+    width: 20px;
+  }
+  .insurance-svg {
+    top: 38px;
+    left: -134px;
+    width: 20px;
+  }
+  /* signup ends*/
+  /* term and condition */
+  #policy-nav .nav-policy-position {
+    top: 0px;
+    z-index: 99;
+    left: 3px;
+    position: relative;
+  }
+  #policy-banner {
+    margin-top: 40px;
+  }
+  .banner-text {
+    margin-right: 0;
+  }
+  .banner-text h2 {
+    font-size: 35px;
+    padding-bottom: 40px;
+    line-height: 50px;
+  }
+  .banner-text p {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 28px;
+  }
+  .privacy-content h2 {
+    font-size: 31px;
+    line-height: 43px;
+    margin-top: 50px;
+  }
+  .scop-content h2 {
+    font-size: 21px;
+    line-height: 36px;
+  }
+  #privacy {
+    padding-top: 24px;
+  }
+
+  #scop {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-scroll {
+    top: 0;
+  }
+  .navbar-brand img {
+    margin-top: -4px;
+    margin-left: -11px;
+    height: 30px;
+  }
+  .navbar-nav li a {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .nav-button button {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 9px;
+    margin-top: 20px;
+  }
+  .navbar-nav li {
+    padding: 0;
+  }
+  .navbar-nav li a:hover::after {
+    opacity: 0;
+  }
+  .offcanvas-img {
+    width: 28%;
+  }
+  /* bannar */
+  .hero-section {
+    padding: 90px 20px 0;
+    background-size: 45px, 100% auto;
+  }
+  .right-banner-img .img-fluid {
+    max-width: 190%;
+    height: auto;
+  }
+  .left-content-box h1 {
+    font-size: 35px;
+    line-height: 58px;
+    margin-bottom: 20px;
+    width: 364px;
+  }
+  .left-content-box h4 {
+    font-family: var(--primary-font);
+    color: var(--secondary-heading);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 40.25px;
+    margin-bottom: 0px;
+  }
+  .drivers p {
+    font-size: 17px;
+  }
+  .drivers h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .dowload-btn--divice {
+    width: 90%;
+  }
+  /* about */
+  #about {
+    margin-top: 75px;
+  }
+  #about .section-heading p {
+    padding-bottom: 65px;
+    width: 80%;
+  }
+  .mobile img {
+    margin-left: -80px;
+    width: 111%;
+  }
+  .mobile-bg img {
+    bottom: -55px;
+    left: -155px;
+    width: 141%;
+  }
+  .about-content p {
+    font-size: 15px;
+    width: 100%;
+  }
+  /* features */
+  #features {
+    margin-top: 120px;
+  }
+  .feature-heading {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .feature-heading-paragraph {
+    width: 515px;
+    line-height: 28px;
+  }
+  .features-content p {
+    width: 100%;
+    text-align: left;
+  }
+  .features-content h4 {
+    width: 30%;
+  }
+  /* work */
+  #work {
+    margin-top: 105px;
+  }
+  .work-content {
+    padding-left: 32px;
+  }
+  .right-quote {
+    top: 191px;
+    left: -121px;
+    transform: scale(0.4);
+  }
+  .middle-quote {
+    position: absolute;
+    top: 235px;
+    left: 298px;
+  }
+  .work-banner-img img {
+    width: 14%;
+    margin-top: 22%;
+    margin-left: 26%;
+  }
+  .work-content p {
+    width: 100%;
+  }
+  .work-content h5 {
+    width: 60px;
+    height: 60px;
+  }
+  .work-content h6 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  /* customer */
+  .customer-img img {
+    width: 110px;
+    height: 110px;
+  }
+  .customer-name h6 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .cutomer-rating i {
+    width: 21px;
+    height: 21px;
+  }
+  .coustomer-pra p {
+    font-size: 13px;
+    line-height: 31px;
+    width: 100%;
+  }
+  .customer-comment {
+    padding: 18px 10px;
+  }
+
+  /* download */
+  #download {
+    padding: 80px 0;
+  }
+  .download-title h4 {
+    font-size: 22px;
+    line-height: 21.25px;
+    margin-top: 10px;
+  }
+  /*   */
+  #footer {
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+  }
+  .arrow-btn i {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  /* signup page starts */
+  .signup-bg .nav_right_img img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 48px;
+  }
+  #signup-banner {
+    margin-top: 45px;
+    padding-bottom: 0;
+  }
+  #signup-banner .wrap {
+    margin-top: 0;
+  }
+  #signup-banner .bannar-heading h1 {
+    font-size: 62px;
+    line-height: 84px;
+    width: 100%;
+  }
+  #signup-banner .banner-pragrap p {
+    width: 100%;
+  }
+  /* documents */
+  #document {
+    padding-top: 80px;
+  }
+  .document-heading h2 {
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .document-heading p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    width: 100%;
+  }
+  .vehicale-wrapper {
+    padding: 10px;
+  }
+  .vehicale-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .vehicale-content h6 {
+    font-size: 17px;
+    line-height: 44px;
+  }
+  .vehicale-content p {
+    font-size: 13px;
+    width: 100%;
+  }
+  /* signup starts */
+  .signup-heading h2 {
+    font-size: 42px;
+    margin-top: -62px;
+  }
+  .signup-heading p {
+    width: 100%;
+  }
+  #regForm {
+    margin: 90px 0 180px auto;
+    padding: 30px 10px;
+    width: 100%;
+  }
+  .step {
+    height: 45px;
+    width: 45px;
+  }
+  .circle {
+    font-size: 22px;
+  }
+  .step::after {
+    top: 26px;
+    left: -86px;
+    width: 218px;
+  }
+  .step.active::after {
+    top: 26px;
+    left: -86px;
+    width: 218px;
+  }
+  .vehicale-heading {
+    font-size: 14px;
+  }
+  .document-heading {
+    font-size: 14px;
+  }
+  .form-label {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .form-control {
+    padding-left: 30px;
+  }
+  .cloud-svg {
+    top: 44px;
+    left: -83px;
+    width: 20px;
+  }
+  .lincense-svg {
+    top: 45px;
+    left: -55px;
+    width: 20px;
+  }
+  .rta-svg {
+    top: 46px;
+    left: -69px;
+    width: 20px;
+  }
+  .vehicale-svg {
+    top: 45px;
+    left: -150px;
+    width: 20px;
+  }
+  .insurance-svg {
+    top: 47px;
+    left: -134px;
+    width: 20px;
+  }
+  /* signup ends*/
+  /* term and condition */
+  #policy-nav .nav-policy-position {
+    top: 0px;
+    z-index: 99;
+    left: 3px;
+    position: relative;
+  }
+  #policy-banner {
+    margin-top: 40px;
+  }
+  .banner-text {
+    margin-right: 0;
+  }
+  .banner-text h2 {
+    font-size: 35px;
+    padding-bottom: 40px;
+    line-height: 50px;
+  }
+  .banner-text p {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 28px;
+  }
+  .privacy-content h2 {
+    font-size: 31px;
+    line-height: 43px;
+    margin-top: 50px;
+  }
+  .scop-content h2 {
+    font-size: 21px;
+    line-height: 36px;
+  }
+  #privacy {
+    padding-top: 24px;
+  }
+
+  #scop {
+    padding-top: 30px;
+  }
+}
+/* lg device */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-scroll {
+    top: 0;
+  }
+  .navbar-brand img {
+    margin-top: -4px;
+    margin-left: -11px;
+    height: 30px;
+  }
+  .navbar-nav li a {
+    font-size: 15px;
+    line-height: 16px;
+  }
+
+  .nav-button button {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 9px;
+  }
+  .navbar-nav li {
+    padding: 0;
+  }
+  .navbar-nav li a:hover::after {
+    opacity: 0;
+  }
+  .offcanvas-img {
+    width: 28%;
+  }
+  /* bannar */
+  .hero-section {
+    padding: 90px 20px 0;
+    background-size: 45px, 100% auto;
+  }
+  .right-banner-img .img-fluid {
+    max-width: 150%;
+    height: auto;
+  }
+  .left-content-box h1 {
+    font-size: 46px;
+    line-height: 65px;
+    margin-bottom: 20px;
+  }
+
+  .left-content-box h4 {
+    font-family: var(--primary-font);
+    color: var(--secondary-heading);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 40.25px;
+    margin-bottom: 0px;
+  }
+  .drivers p {
+    font-size: 17px;
+  }
+  .drivers h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .dowload-btn--divice {
+    width: 90%;
+  }
+  /* about */
+  #about {
+    margin-top: 75px;
+  }
+
+  .mobile img {
+    margin-left: -80px;
+    width: 111%;
+  }
+  .mobile-bg img {
+    bottom: -55px;
+    left: -155px;
+    width: 141%;
+  }
+  .about-content p {
+    font-size: 15px;
+    width: 100%;
+  }
+  /* features */
+  #features {
+    margin-top: 138px;
+  }
+  .right-quote {
+    top: 188px;
+    left: -89px;
+    z-index: -1;
+    transform: scale(0.5);
+  }
+  .middle-quote {
+    top: 235px;
+    left: 422px;
+    z-index: -1;
+  }
+  .feature-heading {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .feature-heading-paragraph {
+    width: 515px;
+    line-height: 28px;
+  }
+  .features-content p {
+    width: 100%;
+    text-align: left;
+  }
+  .features-content h4 {
+    width: 30%;
+  }
+  /* work */
+  .work-content {
+    padding-left: 32px;
+  }
+  .work-banner-img img {
+    width: 14%;
+    margin-top: 22%;
+    margin-left: 26%;
+  }
+  .work-content p {
+    width: 100%;
+  }
+  .work-content h5 {
+    width: 60px;
+    height: 60px;
+  }
+  .work-content h6 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  /* customer */
+  .customer-img img {
+    width: 110px;
+    height: 110px;
+  }
+  .customer-name h6 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .cutomer-rating i {
+    width: 21px;
+    height: 21px;
+  }
+  .coustomer-pra p {
+    font-size: 14px;
+    line-height: 31px;
+    width: 100%;
+  }
+  .customer-comment {
+    padding: 18px 10px;
+  }
+  /* download */
+
+  #download {
+    padding: 80px 0;
+  }
+  .download-title h4 {
+    font-size: 22px;
+    line-height: 21.25px;
+    margin-top: 10px;
+  }
+
+  #footer {
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+  }
+  .arrow-btn i {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  /* signup page starts */
+
+  .signup-bg .nav_right_img img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100px;
+  }
+
+  #signup-banner {
+    margin-top: 45px;
+    padding-bottom: 0;
+  }
+  #signup-banner .wrap {
+    margin-top: 65px;
+  }
+  #signup-banner .bannar-heading h1 {
+    font-size: 38px;
+    line-height: 52px;
+    width: 100%;
+  }
+  #signup-banner .banner-pragrap p {
+    width: 75%;
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  #signup-banner .banner-btn {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  /* documents */
+  #document {
+    padding-top: 360px;
+  }
+  .document-heading h2 {
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .document-heading p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    width: 59%;
+  }
+  .vehicale-wrapper {
+    padding: 10px;
+  }
+  .vehicale-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .vehicale-content h6 {
+    font-size: 17px;
+    line-height: 44px;
+  }
+  .vehicale-content p {
+    font-size: 13px;
+    width: 100%;
+  }
+  /* signup page starts */
+  .signup-device {
+    margin-top: 0;
+  }
+  .signup-bg .navbar-scroll {
+    height: 65px;
+    top: 0;
+  }
+  .signup-bg .nav_right_img img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 48px;
+  }
+  #signup-banner {
+    margin-top: 45px;
+    padding-bottom: 0;
+  }
+  #signup-banner .wrap {
+    margin-top: 70px;
+  }
+  #signup-banner .bannar-heading h1 {
+    font-size: 29px;
+    line-height: 48px;
+    width: 100%;
+  }
+  #signup-banner .banner-pragrap p {
+    width: 57%;
+  }
+  /* documents */
+  #document {
+    padding-top: 255px;
+  }
+  .document-heading h2 {
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .document-heading p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    width: 100%;
+  }
+  .vehicale-wrapper {
+    padding: 10px;
+  }
+  .vehicale-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .vehicale-content h6 {
+    font-size: 17px;
+    line-height: 44px;
+  }
+  .vehicale-content p {
+    font-size: 13px;
+    width: 100%;
+  }
+  /* signup starts */
+  .signup-heading h2 {
+    font-size: 42px;
+    margin-top: -62px;
+  }
+  .signup-heading p {
+    width: 100%;
+  }
+  #regForm {
+    margin: 90px 0 180px auto;
+    padding: 30px 10px;
+    width: 100%;
+  }
+  .step {
+    height: 45px;
+    width: 45px;
+  }
+  .circle {
+    font-size: 22px;
+  }
+  .step::after {
+    top: 26px;
+    left: -127px;
+    width: 298px;
+  }
+  .step.active::after {
+    top: 26px;
+    left: -127px;
+    width: 298px;
+  }
+  .vehicale-heading {
+    font-size: 14px;
+  }
+  .document-heading {
+    font-size: 14px;
+  }
+  .form-label {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .form-control {
+    padding-left: 30px;
+  }
+  .cloud-svg {
+    top: 44px;
+    left: -83px;
+    width: 20px;
+  }
+  .lincense-svg {
+    top: 45px;
+    left: -55px;
+    width: 20px;
+  }
+  .rta-svg {
+    top: 46px;
+    left: -69px;
+    width: 20px;
+  }
+  .vehicale-svg {
+    top: 45px;
+    left: -150px;
+    width: 20px;
+  }
+  .insurance-svg {
+    top: 47px;
+    left: -134px;
+    width: 20px;
+  }
+  /* signup ends*/
+  /* terms and conditions */
+
+  #policy-nav .nav-policy-position {
+    position: absolute;
+    top: 20px;
+    z-index: 99;
+  }
+  #policy-nav.navbar-scroll {
+    height: 96px;
+    top: 0;
+  }
+  .privacy-content h2 {
+    font-size: 45px;
+  }
+}
+/* xl device */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .navbar-scroll {
+    top: 0;
+  }
+  .navbar-brand img {
+    margin-top: -4px;
+    margin-left: -11px;
+    height: 30px;
+  }
+  .navbar-nav li a {
+    font-size: 15px;
+    line-height: 16px;
+  }
+
+  .nav-button button {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 9px;
+  }
+  .navbar-nav li {
+    padding: 0;
+  }
+  .navbar-nav li a:hover::after {
+    opacity: 0;
+  }
+  .offcanvas-img {
+    width: 28%;
+  }
+  /* bannar */
+  .hero-section {
+    padding: 90px 20px 0;
+    background-size: 45px, 100% auto;
+  }
+
+  .left-content-box h1 {
+    font-size: 46px;
+    line-height: 65px;
+    margin-bottom: 20px;
+  }
+
+  .left-content-box h4 {
+    font-family: var(--primary-font);
+    color: var(--secondary-heading);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 40.25px;
+    margin-bottom: 0px;
+  }
+  .drivers p {
+    font-size: 17px;
+  }
+  .drivers h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .dowload-btn--divice {
+    width: 90%;
+  }
+  /* about */
+  #about {
+    margin-top: 75px;
+  }
+  #about .section-heading p {
+    padding-bottom: 55px;
+    width: 45%;
+  }
+  .mobile img {
+    margin-left: -80px;
+    width: 111%;
+  }
+  .mobile-bg img {
+    bottom: -55px;
+    left: -155px;
+    width: 141%;
+  }
+  .about-content p {
+    font-size: 15px;
+    width: 100%;
+  }
+  /* features */
+  #features {
+    margin-top: 138px;
+  }
+  .right-quote {
+    top: 188px;
+    left: -89px;
+    z-index: -1;
+    transform: scale(0.5);
+  }
+  .middle-quote {
+    top: 235px;
+    left: 422px;
+    z-index: -1;
+  }
+  .feature-heading {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .feature-heading-paragraph {
+    width: 515px;
+    line-height: 28px;
+  }
+  .features-content p {
+    width: 100%;
+    text-align: left;
+  }
+  .features-content h4 {
+    width: 30%;
+  }
+  /* work */
+  .work-content {
+    padding-left: 32px;
+  }
+  .work-banner-img img {
+    width: 14%;
+    margin-top: 22%;
+    margin-left: 26%;
+  }
+  .work-content p {
+    width: 100%;
+  }
+  .work-content h5 {
+    width: 60px;
+    height: 60px;
+  }
+  .work-content h6 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  /* customer */
+  .customer-img img {
+    width: 110px;
+    height: 110px;
+  }
+  .customer-name h6 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .cutomer-rating i {
+    width: 21px;
+    height: 21px;
+  }
+  .coustomer-pra p {
+    font-size: 14px;
+    line-height: 31px;
+    width: 100%;
+  }
+  .customer-comment {
+    padding: 18px 10px;
+  }
+  /* download */
+
+  #download {
+    padding: 80px 0;
+  }
+  .download-title h4 {
+    font-size: 22px;
+    line-height: 21.25px;
+    margin-top: 10px;
+  }
+
+  #footer {
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+  }
+  .arrow-btn i {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  /* signup page starts */
+
+  .signup-bg .nav_right_img img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 70px;
+  }
+  #signup-banner {
+    margin-top: 45px;
+    padding-bottom: 0;
+  }
+  #signup-banner .wrap {
+    margin-top: 145px;
+  }
+  #signup-banner .bannar-heading h1 {
+    font-size: 44px;
+    line-height: 64px;
+    width: 100%;
+  }
+
+  #signup-banner .banner-pragrap p {
+    width: 58%;
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  #signup-banner .banner-btn {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  /* documents */
+  #document {
+    padding-top: 380px;
+  }
+  .document-heading h2 {
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .document-heading p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    width: 59%;
+  }
+  .vehicale-wrapper {
+    padding: 10px;
+  }
+  .vehicale-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .vehicale-content h6 {
+    font-size: 17px;
+    line-height: 44px;
+  }
+  .vehicale-content p {
+    font-size: 14px;
+    width: 100%;
+  }
+  /* signup starts */
+  .signup-heading h2 {
+    font-size: 42px;
+    margin-top: -62px;
+  }
+  .signup-heading p {
+    width: 100%;
+  }
+  #regForm {
+    margin: 90px 0 180px auto;
+    padding: 30px 10px;
+    width: 100%;
+  }
+  .step {
+    height: 45px;
+    width: 45px;
+  }
+  .circle {
+    font-size: 22px;
+  }
+  .step::after {
+    top: 26px;
+    left: -155px;
+    width: 358px;
+  }
+  .step.active::after {
+    top: 26px;
+    left: -155px;
+    width: 358px;
+  }
+
+  .vehicale-heading {
+    font-size: 14px;
+  }
+  .document-heading {
+    font-size: 14px;
+  }
+  .form-label {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .form-control {
+    padding-left: 30px;
+  }
+  .cloud-svg {
+    top: 44px;
+    left: -83px;
+    width: 20px;
+  }
+  .lincense-svg {
+    top: 45px;
+    left: -55px;
+    width: 20px;
+  }
+  .rta-svg {
+    top: 46px;
+    left: -69px;
+    width: 20px;
+  }
+  .vehicale-svg {
+    top: 45px;
+    left: -150px;
+    width: 20px;
+  }
+  .insurance-svg {
+    top: 47px;
+    left: -134px;
+    width: 20px;
+  }
+  /* signup ends*/
+  /* terms and conditions */
+  #policy-nav .nav-policy-position {
+    position: absolute;
+    top: 20px;
+    z-index: 99;
+  }
+  #policy-nav.navbar-scroll {
+    height: 96px;
+    top: 0;
+  }
+  .privacy-content h2 {
+    font-size: 45px;
+  }
+}
+/* xxxl device */

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cabby</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap starts-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- bootstrap ends-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+
+  </head>
+  <body>
+   
+    <header id="header" class="header-panel stick-nav h-auto py-4 px-2">
+      <div class="container p-0">
+        <nav class="navbar container navbar-expand-lg p-0">
+          <div class="container-fluid device">
+            <a class="navbar-brand" href="#">
+              <img src="images/nav-logo.png" alt="Logo" />
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <img
+                  src="images/nav-logo.png"
+                  class="offcanvas-img"
+                  alt="Logo"
+                />
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body d-lg-none">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="signup.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">How it works? </a>
+                  </li>
+                </ul>
+                <div class="nav-button ms-auto">
+                  <button><a href="#">Download Now</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">How it works? </a>
+                </li>
+              </ul>
+              <div class="nav-button ms-auto">
+                <button><a href="#">Download Now</a></button>               
+              </div>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+      <!-- Banner part Start -->
+      <section class="section signup-hero-section" id="hero">
+        <div class="container-sm container-md container-fluid">
+          <div class="row align-items-center justify-content-between mt-lg-5 mt-xl-0">
+            <div class="g-0 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="left-content-box h-100">
+
+                <div class="wrap">
+                  <div class="bannar-heading">
+                    <h1>
+                      START <span class="yellow">EARNING</span> <span class="d-block">TODAY</span> WITH CABBY
+                    </h1>
+                  </div>
+                  <div class="banner-pragrap">
+                    <p>
+                      Choose from a variety of ride options and make your commute
+                      hassle-free with our user-friendly ride sharing app. With our
+                      customizable interface, you can even choose your preferred UI
+                      text color to match your personal style. But don't worry, we
+                    </p>
+                  </div>
+                  <button class="banner-btn mt-3 mt-lg-2 mt-xl-3">
+                    <div class="d-flex">
+                      <div class="text"><a href="#">Register Now</a></div>
+                      <div class="ms-2 register-icon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </button>
+                 </div>
+                
+                
+              </div>
+            </div>
+            <div class="mt-4 mt-md-0 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="right-banner-img signup-right-banner h-100">
+                <img src="images/car-beside.png" alt="car-beside" class="img-fluid">
+              </div>
+            </div>
+          </div> 
+        </div>
+      </section>
+      <!-- Banner part end -->
+
+
+    <!-- document Section Start -->
+
+    <section id="document">
+      <div class="container">
+        <div class="document-heading">
+          <h2>JUST READY THIS DOCUMENTS</h2>
+          <p class="mt-2 mt-md-3 mb-md-5">
+            Choose from a variety of ride options and make your commute
+            hassle-free with our user-friendly ride sharing app.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="vehicale-wrapper d-flex">
+              <div class="d-flex align-items-center">
+                <div class="vehicale-icon">
+                  <img src="images/no_crash.png" alt="" />
+                </div>
+              </div>
+              <div class="vehicale-content ms-4">
+                <h6>Vehicle Details</h6>
+                <p>
+                  Choose from a variety of ride options and make your commute
+                  hassle-free with our user-friendly ride sharing app.
+                </p>
+              </div>
+            </div>
+            <div class="vehicale-wrapper d-flex mt-4">
+              <div class="d-flex align-items-center">
+                <div class="vehicale-icon">
+                  <img src="images/description.png" alt="" />
+                </div>
+              </div>
+              <div class="vehicale-content ms-4">
+                <h6>Vehicle Registration</h6>
+                <p>
+                  Need both side photo of your gov. card document and it must
+                  need to be authentic
+                </p>
+              </div>
+            </div>
+            <div class="vehicale-wrapper d-flex mt-4">
+              <div class="d-flex align-items-center">
+                <div class="vehicale-icon">
+                  <img src="images/car_repair.png" alt="" />
+                </div>
+              </div>
+              <div class="vehicale-content ms-4">
+                <h6>Government Card</h6>
+                <p>
+                  Need both side photo of your gov. card document and it must
+                  need to be authentic
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="vehicale-wrapper d-flex mt-4 mt-md-0">
+              <div class="d-flex align-items-center">
+                <div class="vehicale-icon">
+                  <img src="images/how_to_reg.png" alt="" />
+                </div>
+              </div>
+              <div class="vehicale-content ms-4">
+                <h6>Driving licence</h6>
+                <p>
+                  Need both side photo of your gov. card document and it must
+                  need to be authentic
+                </p>
+              </div>
+            </div>
+            <div class="vehicale-wrapper d-flex mt-4">
+              <div class="d-flex align-items-center">
+                <div class="vehicale-icon">
+                  <img src="images/badge.png" alt="" />
+                </div>
+              </div>
+              <div class="vehicale-content ms-4">
+                <h6>ID Card</h6>
+                <p>
+                  Need both side photo of your gov. card document and it must
+                  need to be authentic
+                </p>
+              </div>
+            </div>
+            <div class="vehicale-wrapper d-flex mt-4">
+              <div class="d-flex align-items-center">
+                <div class="vehicale-icon">
+                  <img src="images/minor_crash.png" alt="" />
+                </div>
+              </div>
+              <div class="vehicale-content ms-4">
+                <h6>Car photo</h6>
+                <p>
+                  Need both side photo of your gov. card document and it must
+                  need to be authentic
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- document section End -->
+
+    <!-- Signup section start -->
+
+    <section id="signup">
+      <div class="container">
+        <div class="signup-heading">
+          <h2>SIGN UP NOW</h2>
+          <p class="mt-2 mt-md-3 mb-md-5">
+            Choose from a variety of ride options and make your commute hassle-free with our user-friendly ride sharing app.
+          </p>
+        </div>
+        <form id="regForm" action="">
+          <div class="progress-bar">
+            <div class="line-wrapper d-flex justify-content-between">
+              <div class="line-div">
+                <div class="d-flex justify-content-center align-items-center">
+                 
+                  <div
+                    class="d-flex justify-content-center align-items-center circle step"
+                  >
+                    1
+                  </div>
+                 
+                </div>
+                <h6 class="vehicale-heading">Profile details</h6>
+              </div>
+              <div class="line-div">
+                <div class="d-flex justify-content-center align-items-center">
+                  
+                  <div
+                    class="d-flex justify-content-center align-items-center circle step"
+                  >
+                    2
+                  </div>
+                 
+                </div>
+                <h6 class="vehicale-heading">Vehicle Details</h6>
+              </div>
+              <div class="line-div">
+                <div class="d-flex justify-content-center align-items-center ">
+                 
+                  <div
+                    class="d-flex justify-content-center align-items-center circle step"
+                  >
+                    3
+                  </div>
+                 
+                </div>
+                <h6 class="document-heading">Documents</h6>
+              </div>
+            </div>
+          </div>
+          
+          <!-- One "tab" for each step in the form: -->
+          <div class="tab">
+            <div class="row mt-3 document-from">
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-regular fa-user me-3"></i>Full Name</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="Yesir Ali Khan"
+                    class="form-control from-left"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-regular fa-envelope me-3"></i>Email</label
+                  >
+                  <input
+                    type="email"
+                    placeholder="sam@cabby.com"
+                    class="form-control from-left"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-solid fa-cake-candles me-3"></i>Birthday</label
+                  >
+                  <input
+                    type="date"
+                    class="form-control from-left"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-solid fa-mars me-3"></i>Gender</label
+                  >
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Male</option>
+                    <option value="1">Female</option>
+                    <option value="2">Others</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-regular fa-user me-3"></i>Referral Code
+                    (Optional)
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="516sc6"
+                    class="form-control from-left"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab">
+            <div class="row mt-3 document-from">
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-brands fa-magento me-3"></i>Photo of your vehicle </label
+                  >
+                  <input
+                  type="text"
+                  placeholder="Yesir Ali Khan"
+                  class="form-control from-left"
+                  id="exampleFormControlInput1"
+                />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-brands fa-magento me-3"></i>License Number</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="56569 9565693 5656"
+                    class="form-control from-left"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-solid fa-car me-3"></i>Vehicle Type</label
+                  >
+                  <input
+                  placeholder="Car"
+                    type="text"
+                    class="form-control from-left"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-solid fa-file-contract me-3"></i>Brand</label
+                  >
+                  <input
+                  placeholder="Honda"
+                    type="text"
+                    class="form-control from-left"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-solid fa-file-contract me-3"></i>Model
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="SUV"
+                    class="form-control from-left"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-solid fa-fill-drip me-3"></i>Color
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Red "
+                    class="form-control from-left"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="d-flex">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      ><i class="fa-solid fa-user-group me-3"></i>Max Person
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Luxury"
+                      class="form-control from-left from-max"
+                      id="exampleFormControlInput1"
+                    />
+                    
+                  </div>
+                  <div class="mb-3 ms-4">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      ><i class="fa-regular fa-calendar-check me-3"></i>Year
+                    </label>
+                    <input
+                      type="date"
+                      placeholder="2019"
+                      class="form-control from-left"
+                      id="exampleFormControlInput1"
+                    />
+                    
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    ><i class="fa-regular fa-user me-3 me-3"></i>Category 
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Luxury"
+                    class="form-control from-left"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          
+         <div class="tab">
+            <div class="row mt-3 document-from">
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Emirates ID</label
+                  >
+                  
+                  <img class="cloud-svg" src="images/icon-cloudsvg.svg" alt="cloud-svg">
+                  
+                  <input
+                    type="text"
+                    placeholder="Upload Your Emirates ID"
+                    class="form-control from-left documents-form"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+               <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >License</label
+                  >
+                  
+                  <img class="lincense-svg" src="images/icon-cloudsvg.svg" alt="cloud-svg">
+                  
+                  <input
+                    type="text"
+                    placeholder="Upload Your License "
+                    class="form-control from-left documents-form"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+               <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >RTA Card</label
+                  >
+                  
+                  <img class="rta-svg" src="images/icon-cloudsvg.svg" alt="cloud-svg">
+                  
+                  <input
+                    type="text"
+                    placeholder="Upload Your RTA Card"
+                    class="form-control from-left documents-form"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6">
+              <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Vehicle ID (Mulkiya)</label
+                  >
+                  
+                  <img class="vehicale-svg" src="images/icon-cloudsvg.svg" alt="cloud-svg">
+                  
+                  <input
+                    type="text"
+                    placeholder="Upload Your Vehicle ID (Mulkiya)"
+                    class="form-control from-left documents-form"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                
+               <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Vehicle Insurance</label
+                  >
+                  
+                  <img class="insurance-svg" src="images/icon-cloudsvg.svg" alt="cloud-svg">
+                  
+                  <input
+                    type="text"
+                    placeholder="Upload Your Vehicle Insurance"
+                    class="form-control from-left documents-form"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="document-btn">
+              <button type="button" id="nextBtn" onclick="nextPrev(1)">
+                <div class="d-flex">
+                  <div class="ms-2">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div></button>
+            </div>
+            
+          
+          <!-- Circles which indicates the steps of the form: -->
+          
+          </form>
+ 
+  
+        
+      </div>
+    </section> 
+
+    <!-- Signup section end -->
+
+    <!-- Download section start -->
+    <section id="download" class="signup-download">
+      <div class="download-wrapper me-5">
+        <div class="banner-title">
+          <h4>Download The App Now</h4>
+        </div>
+        <div class="dowload-btn d-flex">
+          <div class="google-btn mt-3 mb-5">
+         <a href="#"><img src="images/playstore-btn.png" alt="google-play" /></a>
+          </div>
+          <div class="apple-btn mt-3 ms-3">
+            <a href="#"><img src="images/apple-btn.png" alt="apple-store" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download section end -->
+
+        <!-- Contact section start -->
+
+        <section id="contact">
+            <div class="container">
+              <div class="section-heading">
+                <h2 class="contact-heading text-center">CONTACT US</h2>
+                <p class="contact-heading-paragraph mx-auto text-center my-4 mb-xl-5">
+                  Choose from a variety of ride options and make your commute
+                  hassle-free with our user-friendly ride sharing app.
+                </p>
+              </div>
+              <div class="message-wrapper mt-3">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control from-left"
+                        id="exampleFormControlInput1"
+                      />
+                    </div>
+                    <div class="mb-4">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control from-left"
+                        id="exampleFormControlInput1"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="mb-4">
+                      <label for="exampleFormControlTextarea1" class="form-label"
+                        >Message</label
+                      >
+                      <input
+                        class="form-control from-right"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                      ></input>
+                    </div>
+                  </div>
+                  <div class="message-btn">
+                    <button type="button">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+        <!-- Contact section End -->
+
+            <!-- Footer section start -->
+
+             <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-cabby">
+              <div class="footer-logo">
+                <picture>
+                 <a href="index.html"> <img src="images/footer-logo.png" alt="footer-logo"></a>
+                </picture>
+              </div>
+              <div class="footer-content mt-3">
+                <p>Discover the beautiful hidden gems of the Hikes, things to see, activities, restaurants, beaches,. Interactive map.Discover the beautiful hidden gems of the Hikes, things to see, activities, restaurants, beaches,. Interactive map.</p>
+              </div>
+              <div class="cabby-location mt-4">
+                <div class="cabby-info d-flex mb-4">
+                  <i class="fa-solid fa-phone"></i>
+                  <p class="ms-3">info@cabby.com</p>
+                </div>
+                <div class="cabby-info d-flex mb-4">
+                  <i class="fa-solid fa-message"></i>
+                  <p class="ms-3">+971-56-6027916</p>
+                </div>
+                <div class="cabby-info d-flex ">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="ms-3">236 Example Street, Dubai, UAE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mt-4 mt-lg-0">
+          <div class="footer-links">
+            <div class="links-heading">
+              <h5>Useful links</h5>
+            </div>
+            <div class="quick-links mt-0 mt-lg-4">
+              <ul>
+                <li class="mb-3"><a href="index.html">Home </a></li>
+                <li class="mb-3"><a href="#">About Us</a></li>
+                <li class="mb-3"><a href="#">Features</a></li>
+                <li class="mb-3"><a href="#">Become a Cabbie</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="payment-method">
+              <div class="payment-heading mt-4">
+                <h5>Payment Methods</h5>
+              </div>
+              <div class="payment-icon mt-3">
+              <a href="#">  <img src="images/Mastercard.png" alt="" ></a>
+               <a href="#"> <img src="images/Visa.png" alt="" class="ms-2"></a>
+               <a href="#"> <img src="images/AMERICAN EXPRESS.png" alt="" class="ms-2"></a>
+               <a href="#"> <img src="images/Paypal.png" alt="" class="ms-2"></a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-2 col-lg-2 mt-4 mt-md-4 mt-lg-0">
+            <div class="legal-wrapper">
+              <div class="links-heading">
+                <h5>Legal</h5>
+              </div>
+              <div class="quick-links mt-4">
+                <ul>
+                  <li class="mb-3"><a href="#">Privacy Policy</a></li>
+                  <li class="mb-3"><a href="#">Terms & Conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mt-md-3 mt-lg-0">
+            <div class="social-link-wrapper">
+              <div class="links-heading">
+                <h5>Social Links</h5>
+              </div>
+              <div class="social-icon d-flex mt-3">
+                <div class="icon facbook-icon">
+                 <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="icon ">
+                <a href="#">  <i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="icon">
+                 <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                 <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon">
+                 <a href="#"> <i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+              </div>
+              <div class="links-heading mt-5">
+                <h5>Download App</h5>
+              </div>
+            </div>
+            <div class="dowload-btn d-flex d-lg-block d-xxl-flex">
+              <div class="google-btn mt-3 mb-0 ">
+                <a href="#"> <img
+                  src="images/playstore-btn.png"
+                  alt="google-play"
+                /></a>
+              </div>
+              <div class="apple-btn mt-3 ms-3 ms-lg-0">
+               <a href="#"> <img src="images/apple-btn.png" alt="apple-store" /></a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrow-btn text-end">
+         <a href="#"> <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section End -->
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        let navbar = $(".stick-nav");
+        $(window).scroll(function () {
+          if ($(window).scrollTop() <= 80) {
+            navbar.removeClass("navbar-scroll");
+          } else {
+            navbar.addClass("navbar-scroll");
+          }
+        });
+      });
+    </script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cabby Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <!-- bootstrap starts-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- bootstrap ends-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- slick slider -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+  </head>
+  <body>
+<!-- header starts -->
+    <header id="header" class="header-panel stick-nav h-auto py-4 px-2">
+      <div class="container p-0">
+        <nav class="navbar container navbar-expand-lg p-0">
+          <div class="container-fluid device">
+            <a class="navbar-brand" href="#">
+              <img src="images/nav-logo.png" alt="Logo" />
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <img
+                  src="images/nav-logo.png"
+                  class="offcanvas-img"
+                  alt="Logo"
+                />
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body d-lg-none">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="signup.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">How it works? </a>
+                  </li>
+                </ul>
+                <div class="nav-button ms-auto">
+                  <button><a href="#"> Download Now</a></button>
+                  <button class="mt-3 mt-lg-0 ms-0 ms-lg-2">
+                    <div class="d-flex">
+                      <div class="text cabbie"><a href="signup.html">Become a Cabbie</a></div>
+                      <div class="ms-2">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">How it works? </a>
+                </li>
+              </ul>
+              <div class="nav-button ms-auto">
+                <button><a href="#">Download Now</a></button>
+                <button class="mt-3 mt-lg-0 ms-0 ms-lg-2">
+                  <div class="d-flex">
+                    <div class="text cabbie"><a href="signup.html">Become a Cabbie</a></div>
+                    <div class="ms-2">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </button>                 
+              </div>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+<!-- header ends -->
+
+<!-- section stats -->
+    <section class="section hero-section" id="hero">
+      <div class="container-sm container-md container-fluid">
+        <div class="row align-items-center justify-content-between mt-lg-5 mt-xl-0">
+          <div class="g-0 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="left-content-box h-100">
+              <h1>
+                <span class="yellow">Your Ride,</span>
+                <span class="blue">Your Way</span>
+                <span class="black">With Cabby</span>
+              </h1>
+              <p>
+                Choose from a variety of ride options and make your commute
+                hassle-free with our user-friendly ride sharing app. With our
+                customizable interface, you can even choose your preferred UI
+                text color to match your personal style. But don't worry, we
+              </p>
+              <div class="download-box">
+                <h4>Download The App Now</h4>
+                <div class="dowload-btn d-flex">
+                  <div class="google-btn mt-3 mb-2 mb-lg-5">
+                   <a href="#"><img src="images/playstore-btn.png" class="dowload-btn--divice" alt="google-play"/></a>
+                  </div>
+                  <div class="apple-btn mt-3 ms-0 ms-sm-4">
+                   <a href="#">
+                    <img src="images/apple-btn.png" class="dowload-btn--divice" alt="apple-store" />
+                   </a>
+                  </div>
+                </div>
+              </div>
+              <div class="users">
+                <div class="user_wrapper d-flex">
+                  <div class="drivers d-flex">
+                    <div class="me-5 me-lg-3 me-xl-5">
+                      <p>DRIVERS</p>
+                      <h3>300+</h3>
+                    </div>
+                    <div class="margin_right d-none d-lg-flex"></div>
+                  </div>
+                  <div class="drivers d-flex">
+                    <div class="me-5 me-lg-3 me-xl-5">
+                      <p>EARNING</p>
+                      <h3>1M+</h3>
+                    </div>
+                    <div class="margin_right d-none d-lg-flex"></div>
+                  </div>
+                  <div class="drivers d-flex">
+                    <div class="me-5 me-lg-3 me-xl-5">
+                      <p>USERS</p>
+                      <h3>30K</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 mt-md-0 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="right-banner-img h-100">
+              <img src="images/banner-img.png" alt="banner-img" class="img-fluid">
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+<!-- section ends -->
+
+    <!-- About section Start -->
+
+    <section id="about">
+      <div class="container">
+        <div class="section-heading">
+          <h2>ABOUT US</h2>
+          <p class="mt-2">
+            Choose from a variety of ride options and make your commute
+            hassle-free with our user-friendly ride sharing app.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-bg d-none d-md-block">
+              <div class="mobile">
+                <picture>
+                  <img src="images/polygon-phone.png" alt="polygon-phone" />
+                </picture>
+              </div>
+              <div class="mobile-bg">
+                <picture>
+                  <img src="images/polygon.png" alt="polygon-phone" />
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="about-content">
+              <h4 >ABOUT US</h4>
+              <p class="mt-1">
+                Choose from a variety of ride options and make your commute
+                hassle-free with our user-friendly ride s Choose from a variety
+                of ride options and make your commute hassle-free with our
+                user-friendly ride sharing app.Choose from a variety of ride
+                options and make
+              </p>
+              <p class="mt-md-3 mt-lg-4">
+                Choose from a variety of ride options and make your commute
+                hassle-free with our user-friendly ride sharing app.Choose from
+                a variety of ride options and make your c
+              </p>
+              <p class="mt-md-3 mt-lg-4">
+                Choose from a variety of ride options and make your commute
+                hassle-free with our user-friendly ride sharing app.Choose from
+                a variety of ride options and make your c
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section End -->
+
+    <!-- Features section start -->
+
+    <section id="features">
+      <div class="container">
+
+        <div class="section-heading">
+          <h2 class="feature-heading text-center">AMAZING FEATURES</h2>
+          <p class="feature-heading-paragraph mx-auto text-center my-4 mb-xl-5">
+            Choose from a variety of ride options and make your commute
+            hassle-free with our user-friendly ride sharing app.
+          </p>
+        </div>
+
+         <div class="row">
+          <div class="col-md-4 col-lg-3 d-flex align-items-center">
+            <div class="features-content text-center text-lg-start">
+              <div class="features-wrapper">
+                <h4>FEATURE</h4>
+                <p class="mt-2">
+                  Choose from a variety of ride options and make your Choose
+                  from a variety of ride options and make your
+                </p>
+              </div>
+              <div class="features-content mt-4">
+                <h4>FEATURE</h4>
+                <p class="mt-2">
+                  Choose from a variety of ride options and make your Choose
+                  from a variety of ride options and make your
+                </p>
+              </div>
+              <div class="features-content mt-4">
+                <h4>FEATURE</h4>
+                <p class="mt-2">
+                  Choose from a variety of ride options and make your Choose
+                  from a variety of ride options and make your
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-6 d-md-flex d-lg-block">
+            <div class="feature-img d-none d-md-block align-self-center">
+              <picture>
+                <img src="images/feature-img.png" alt="" class="img-fluid " />
+              </picture>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 d-flex align-items-center">
+            <div class="features-content text-center text-lg-start">
+              <div class="features-wrapper mt-3 mt-md-0">
+                <h4>FEATURE</h4>
+                <p class="mt-2">
+                  Choose from a variety of ride options and make your Choose
+                  from a variety of ride options and make your
+                </p>
+              </div>
+              <div class="features-content mt-4">
+                <h4>FEATURE</h4>
+                <p class="mt-2">
+                  Choose from a variety of ride options and make your Choose
+                  from a variety of ride options and make your
+                </p>
+              </div>
+              <div class="features-content mt-4">
+                <h4>FEATURE</h4>
+                <p class="mt-2">
+                  Choose from a variety of ride options and make your Choose
+                  from a variety of ride options and make your
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <!-- Features section End -->
+
+    <!-- work section start -->
+
+    <section id="work">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="work-heading text-center">HOW IT WORKS</h2>
+          <p class="work-heading-paragraph mx-auto text-center my-4 mb-md-5">
+            Choose from a variety of ride options and make your commute
+            hassle-free with our user-friendly ride sharing app.
+          </p>
+          <div class="work-banner-img d-none d-md-block">
+            <picture>
+              <img src="images/work-banner-img.png" alt="" class="">
+            </picture>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="work-content">
+              <h5>1</h5>
+              <h6>Fast and intuitive</h6>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="work-content">
+              <h5>2</h5>
+              <h6>Fast and intuitive</h6>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 my-md-2 my-lg-0 col-lg-4">
+            <div class="work-content">
+              <h5>3</h5>
+              <h6>Fast and intuitive</h6>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 my-md-2 my-lg-0 col-lg-4 mt-lg-4">
+            <div class="work-content">
+              <h5>4</h5>
+              <h6>Fast and intuitive</h6>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-lg-4">
+            <div class="work-content">
+              <h5>5</h5>
+              <h6>Fast and intuitive</h6>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-lg-4">
+            <div class="work-content">
+              <h5>6</h5>
+              <h6>Fast and intuitive</h6>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work section end -->
+    <!-- Customer section start -->
+
+    <section id="customer">
+      <div class="container">
+        <div class="section-heading mb-5">
+          <h2 class="customer-heading text-center">WHAT OUR CUSTOMERS SAY</h2>
+          <p class="customer-heading-paragraph mx-auto text-center my-4">
+            Choose from a variety of ride options and make your commute
+            hassle-free with our user-friendly ride sharing app.
+          </p>
+
+          <div class="right-quote d-none d-md-block">
+            <picture>
+              <img src="images/quote .png" alt="" class="img-fluid">
+            </picture>
+          </div>
+          <div class="middle-quote d-none d-md-block">
+            <img src="images/format_quote.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="slider">
+          
+                <div class="customer-comment">
+                  <div class="customer-img">
+                    <picture>
+                      <img src="images/client-1.png" alt="" class="" />
+                    </picture>
+                  </div>
+                  <div class="customer-wrapper">
+                    <div class="customer-name mt-2">
+                      <h6>Leslie Alexander</h6>
+                    </div>
+                    <div class="cutomer-rating mt-2">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="coustomer-pra">
+                      <p>
+                        Choose from a variety of ride options and make your
+                        commute hassle-free with our user-friendly ride
+                        sharing app.Choose from a variety of ride options
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="customer-comment">
+                  <div class="customer-img">
+                    <picture>
+                      <img src="images/client-1.png" alt="" class="" />
+                    </picture>
+                  </div>
+                  <div class="customer-wrapper">
+                    <div class="customer-name mt-2">
+                      <h6>Leslie Alexander</h6>
+                    </div>
+                    <div class="cutomer-rating mt-2">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="coustomer-pra">
+                      <p>
+                        Choose from a variety of ride options and make your
+                        commute hassle-free with our user-friendly ride
+                        sharing app.Choose from a variety of ride options
+                      </p>
+                    </div>
+                  </div>
+                </div>
+             
+                <div class="customer-comment">
+                  <div class="customer-img">
+                    <picture>
+                      <img src="images/client-1.png" alt="" class="" />
+                    </picture>
+                  </div>
+                  <div class="customer-wrapper">
+                    <div class="customer-name mt-2">
+                      <h6>Leslie Alexander</h6>
+                    </div>
+                    <div class="cutomer-rating mt-2">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="coustomer-pra">
+                      <p>
+                        Choose from a variety of ride options and make your
+                        commute hassle-free with our user-friendly ride
+                        sharing app.Choose from a variety of ride options
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="customer-comment">
+                  <div class="customer-img">
+                    <picture>
+                      <img src="images/client-1.png" alt="" class="" />
+                    </picture>
+                  </div>
+                  <div class="customer-wrapper">
+                    <div class="customer-name mt-2">
+                      <h6>Leslie Alexander</h6>
+                    </div>
+                    <div class="cutomer-rating mt-2">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="coustomer-pra">
+                      <p>
+                        Choose from a variety of ride options and make your
+                        commute hassle-free with our user-friendly ride
+                        sharing app.Choose from a variety of ride options
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer part End -->
+    <!-- Download section Start -->
+
+    <section id="download">
+      
+        <div class="download-wrapper mt-2 me-5 me-sm-2 me-md-1">
+          <div class="download-title">
+            <h4>Download The App Now</h4>
+          </div>
+          <div class="dowload-btn d-flex">
+            <div class="google-btn mt-3 mb-5">
+              <a href="#"><img src="images/playstore-btn.png" alt="google-play" /></a>
+            </div>
+            <div class="apple-btn mt-3 ms-3">
+             <a href="#"> <img src="images/apple-btn.png" alt="apple-store" /></a>
+            </div>
+          </div>
+        </div>
+      
+    </section>
+
+    <!-- Dowload  section end -->
+
+    <!-- Contact section start -->
+   
+    <section id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="contact-heading text-center">CONTACT US</h2>
+          <p class="contact-heading-paragraph mx-auto text-center my-4 mb-lg-5">
+            Choose from a variety of ride options and make your commute
+            hassle-free with our user-friendly ride sharing app.
+          </p>
+        </div>
+        <div class="message-wrapper mt-3">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control from-left"
+                  id="exampleFormControlInput1"
+                />
+              </div>
+              <div class="mb-4">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control from-left"
+                  id="exampleFormControlInput1"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-4">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <input
+                  class="form-control from-right"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></input>
+              </div>
+            </div>
+            <div class="message-btn">
+              <button type="button">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section End -->
+
+    <!-- Footer section start -->
+
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-cabby">
+              <div class="footer-logo">
+                <picture>
+                 <a href="index.html"> <img src="images/footer-logo.png" alt="footer-logo"></a>
+                </picture>
+              </div>
+              <div class="footer-content mt-3">
+                <p>Discover the beautiful hidden gems of the Hikes, things to see, activities, restaurants, beaches,. Interactive map.Discover the beautiful hidden gems of the Hikes, things to see, activities, restaurants, beaches,. Interactive map.</p>
+              </div>
+              <div class="cabby-location mt-4">
+                <div class="cabby-info d-flex mb-4">
+                  <i class="fa-solid fa-phone"></i>
+                  <p class="ms-3">info@cabby.com</p>
+                </div>
+                <div class="cabby-info d-flex mb-4">
+                  <i class="fa-solid fa-message"></i>
+                  <p class="ms-3">+971-56-6027916</p>
+                </div>
+                <div class="cabby-info d-flex ">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p class="ms-3">236 Example Street, Dubai, UAE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mt-4 mt-lg-0">
+          <div class="footer-links">
+            <div class="links-heading">
+              <h5>Useful links</h5>
+            </div>
+            <div class="quick-links mt-0 mt-lg-4">
+              <ul>
+                <li class="mb-3"><a href="#">Home </a></li>
+                <li class="mb-3"><a href="#">About Us</a></li>
+                <li class="mb-3"><a href="#">Features</a></li>
+                <li class="mb-3"><a href="#">Become a Cabbie</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="payment-method">
+              <div class="payment-heading mt-4">
+                <h5>Payment Methods</h5>
+              </div>
+              <div class="payment-icon mt-3">
+              <a href="#">  <img src="images/Mastercard.png" alt="" ></a>
+               <a href="#"> <img src="images/Visa.png" alt="" class="ms-2"></a>
+               <a href="#"> <img src="images/AMERICAN EXPRESS.png" alt="" class="ms-2"></a>
+               <a href="#"> <img src="images/Paypal.png" alt="" class="ms-2"></a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-2 col-lg-2 mt-4 mt-md-4 mt-lg-0">
+            <div class="legal-wrapper">
+              <div class="links-heading">
+                <h5>Legal</h5>
+              </div>
+              <div class="quick-links mt-4">
+                <ul>
+                  <li class="mb-3"><a href="#">Privacy Policy</a></li>
+                  <li class="mb-3"><a href="#">Terms & Conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mt-md-3 mt-lg-0">
+            <div class="social-link-wrapper">
+              <div class="links-heading">
+                <h5>Social Links</h5>
+              </div>
+              <div class="social-icon d-flex mt-3">
+                <div class="icon facbook-icon">
+                 <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="icon ">
+                <a href="#">  <i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="icon">
+                 <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                 <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon">
+                 <a href="#"> <i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+              </div>
+              <div class="links-heading mt-5">
+                <h5>Download App</h5>
+              </div>
+            </div>
+            <div class="dowload-btn d-flex d-lg-block d-xxl-flex">
+              <div class="google-btn mt-3 mb-0 ">
+                <a href="#"> <img
+                  src="images/playstore-btn.png"
+                  alt="google-play"
+                /></a>
+              </div>
+              <div class="apple-btn mt-3 ms-3 ms-lg-0">
+               <a href="#"> <img src="images/apple-btn.png" alt="apple-store" /></a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrow-btn text-end">
+         <a href="#"> <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer section End -->
+        
+ <!-- jquery -->
+ <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <!-- jquery and slick slider -->
+ <script src="js/jquery.min.js"></script>
+ <script src="js/slick.js"></script>
+
+  <script type="text/javascript">
+      $(function () {
+        let navbar = $(".stick-nav");
+        $(window).scroll(function () {
+          if ($(window).scrollTop() <= 50) {
+            navbar.removeClass("navbar-scroll");
+          } else {
+            navbar.addClass("navbar-scroll");
+          }
+        });
+      });
+      // slick slider
+$(document).ready(function () {
+  $(".slider").slick({
+    centerMode: true,
+    centerPadding: "10px",
+    autoplay: true,
+    speed: 900,
+    slidesToShow: 3,
+    accessibility: true,
+    arrows: false,
+    autoplaySpeed: 1000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: "40px",
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: "40px",
+          slidesToShow: 1,
+        },
+      },
+    ],
+  });
+});
+
+    </script>
+   
+  </body>
+</html>
